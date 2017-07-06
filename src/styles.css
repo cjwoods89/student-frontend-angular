@@ -28,3 +28,11 @@ table {
 .ng-invalid:not(form)  {
   border-left: 5px solid #a94442; /* red */
 }
+
+#footer {
+  margin-bottom: 0;
+  color: lightgray !important;
+  /*height: 200px;*/
+  line-height: 50px;
+  text-align: center;
+}

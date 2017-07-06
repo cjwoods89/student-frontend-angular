@@ -13,15 +13,29 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Home</a></li>
-                <li><a href="#/">About Us</a></li>
-                <li><a href="#/">Contact Us</a></li>
-                <li><a href="#/">Registration</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+                    <ul class="dropdown-menu">
+                        <li routerLinkActive="active"><p class="navbar-text">This feature not yet implemented, therefore you will not be allowed to know more about us. We haven't even had a first date... Can you expect more?</p></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                    <ul class="dropdown-menu">
+                        <li routerLinkActive="active"><p class="navbar-text">This feature not yet implemented, therefore you are not allowed to contact us. Unless you want to send cookies.... we'll allow that!</p></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registration</a>
+                    <ul class="dropdown-menu">
+                        <li routerLinkActive="active"><p class="navbar-text">Registration is now closed. You are not allowed to be a future SHIT Head at this time. Please try again later.</p></li>
+                    </ul>
+                </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li routerLinkActive="active"><a routerLink="/home">Home</a></li>
                         <li routerLinkActive="active"><a routerLink="/student" >Students</a></li>
                         <li routerLinkActive="active"><a routerLink="/grade" >Grades</a></li>
                         <li routerLinkActive="active"><a routerLink="/major" >Majors</a></li>                
